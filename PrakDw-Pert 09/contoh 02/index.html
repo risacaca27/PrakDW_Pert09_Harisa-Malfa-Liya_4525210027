@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SKIN1004's Store - Data Penjualan</title>
+
+    <!-- Bootstrap 5.3.8 -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- CSS Tambahan -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-light">
+
+    <!-- HEADER -->
+    <header class="store-header text-white py-4">
+        <div class="container">
+
+            <h1 class="h3 mb-1">
+                SKIN1004's Store
+            </h1>
+
+            <p class="mb-0">
+                Sales Management Dashboard
+            </p>
+
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="container my-5">
+
+        <!-- JUDUL DAN TOMBOL -->
+        <div class="row align-items-center mb-4">
+
+            <div class="col-12 col-md-8">
+
+                <h2 class="section-title">
+                    Data Penjualan
+                </h2>
+
+                <p class="text-secondary mb-md-0">
+                    Informasi penjualan produk skincare SKIN1004.
+                </p>
+
+            </div>
+
+            <div class="col-12 col-md-4 text-md-end mt-3 mt-md-0">
+
+                <button class="btn btn-add">
+                    + Tambah Penjualan
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- INFORMASI RINGKAS -->
+        <div class="row g-3 mb-4">
+
+            <!-- TOTAL PENJUALAN -->
+            <div class="col-12 col-md-4">
+
+                <div class="card shadow-sm dashboard-card">
+                    <div class="card-body">
+
+                        <p class="text-secondary mb-1">
+                            Total Penjualan
+                        </p>
+
+                        <h3 class="mb-0">
+                            Rp8.450.000
+                        </h3>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- PRODUK TERJUAL -->
+            <div class="col-12 col-md-4">
+
+                <div class="card shadow-sm dashboard-card">
+                    <div class="card-body">
+
+                        <p class="text-secondary mb-1">
+                            Produk Terjual
+                        </p>
+
+                        <h3 class="mb-0 text-success">
+                            125
+                        </h3>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- TRANSAKSI -->
+            <div class="col-12 col-md-4">
+
+                <div class="card shadow-sm dashboard-card">
+                    <div class="card-body">
+
+                        <p class="text-secondary mb-1">
+                            Total Transaksi
+                        </p>
+
+                        <h3 class="mb-0 text-warning">
+                            85
+                        </h3>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- TABEL PENJUALAN -->
+        <div class="card shadow-sm table-card">
+
+            <div class="card-header bg-white py-3">
+
+                <h3 class="h5 mb-0">
+                    Riwayat Penjualan Produk
+                </h3>
+
+            </div>
+
+            <div class="card-body">
+
+                <!-- TABEL RESPONSIVE -->
+                <div class="table-responsive">
+
+                    <table class="table table-striped table-hover align-middle">
+
+                        <thead class="table-dark">
+
+                            <tr>
+                                <th>No.</th>
+                                <th>ID Transaksi</th>
+                                <th>Nama Produk</th>
+                                <th>Kategori</th>
+                                <th>Jumlah</th>
+                                <th>Total Harga</th>
+                                <th>Status</th>
+                                <th>Aksi</th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <!-- DATA 1 -->
+                            <tr>
+                                <td>1</td>
+                                <td>TRX001</td>
+                                <td>Hyalu-Cica Sun Serum</td>
+                                <td>Sunscreen</td>
+                                <td>20</td>
+                                <td>Rp2.000.000</td>
+                                <td>
+                                    <span class="badge text-bg-success">
+                                        Selesai
+                                    </span>
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-detail">
+                                        Detail
+                                    </button>
+                                </td>
+                            </tr>
+
+                            <!-- DATA 2 -->
+                            <tr>
+                                <td>2</td>
+                                <td>TRX002</td>
+                                <td>Centella Ampoule</td>
+                                <td>Ampoule</td>
+                                <td>35</td>
+                                <td>Rp2.450.000</td>
+                                <td>
+                                    <span class="badge text-bg-success">
+                                        Selesai
+                                    </span>
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-detail">
+                                        Detail
+                                    </button>
+                                </td>
+                            </tr>
+
+                            <!-- DATA 3 -->
+                            <tr>
+                                <td>3</td>
+                                <td>TRX003</td>
+                                <td>Centella Ampoule Foam</td>
+                                <td>Face Wash</td>
+                                <td>25</td>
+                                <td>Rp1.250.000</td>
+                                <td>
+                                    <span class="badge text-bg-warning">
+                                        Diproses
+                                    </span>
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-detail">
+                                        Detail
+                                    </button>
+                                </td>
+                            </tr>
+
+                            <!-- DATA 4 -->
+                            <tr>
+                                <td>4</td>
+                                <td>TRX004</td>
+                                <td>Hyalu-Cica Moisture Cream</td>
+                                <td>Moisturizer</td>
+                                <td>30</td>
+                                <td>Rp2.250.000</td>
+                                <td>
+                                    <span class="badge text-bg-success">
+                                        Selesai
+                                    </span>
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-detail">
+                                        Detail
+                                    </button>
+                                </td>
+                            </tr>
+
+                            <!-- DATA 5 -->
+                            <tr>
+                                <td>5</td>
+                                <td>TRX005</td>
+                                <td>Centella Ampoule Foam</td>
+                                <td>Face Wash</td>
+                                <td>15</td>
+                                <td>Rp750.000</td>
+                                <td>
+                                    <span class="badge text-bg-danger">
+                                        Dibatalkan
+                                    </span>
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-detail">
+                                        Detail
+                                    </button>
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="store-footer text-white text-center py-4">
+
+        <div class="container">
+
+            <p class="mb-0">
+                &copy; 2026 SKIN1004's Store.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

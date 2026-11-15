@@ -1,0 +1,163 @@
+
+/* GENERAL */
+body {
+    background-color: #f7f6f0;
+    font-family: 'DM Sans', sans-serif;
+    color: #35483b;
+}
+
+/* HEADER */
+.bg-header {
+    background: linear-gradient(120deg, #536b5b, #899b83);
+    padding: 35px 0 !important;
+}
+
+.brand-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.bg-header p {
+    color: #e8eee7;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+/* SECTION TITLE */
+.subtitle {
+    color: #899b83;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #35483b;
+    margin-bottom: 15px;
+}
+
+/* PRODUCT CARD */
+.product-card {
+    background-color: #fffefa;
+    border: 1px solid #e5e8df;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px rgba(53, 72, 59, 0.12);
+}
+
+.card-img-top {
+    height: 240px;
+    object-fit: contain;
+    padding: 10px;
+    background-color: #f0f3ed;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.category {
+    display: inline-block;
+    color: #899b83;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #35483b;
+    min-height: 50px;
+}
+
+.product-size {
+    color: #a0a69d;
+    font-size: 12px;
+}
+
+.card-text {
+    color: #737d74;
+    font-size: 13px;
+    line-height: 1.8;
+    min-height: 115px;
+}
+
+/* PRODUCT BUTTON */
+.btn-product {
+    background-color: #647d68;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.btn-product:hover {
+    background-color: #35483b;
+    color: white;
+}
+
+/* ABOUT SECTION */
+.about-section {
+    background-color: #e9efea;
+    border-radius: 10px;
+}
+
+.about-section .section-title {
+    font-size: 30px;
+}
+
+.about-section p:last-child {
+    color: #737d74;
+    font-size: 14px;
+    line-height: 1.9;
+    max-width: 750px;
+    margin: auto;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #35483b;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    .brand-title {
+        font-size: 29px;
+    }
+
+    .section-title {
+        font-size: 27px;
+    }
+
+    .card-img-top {
+        height: 260px;
+    }
+
+    .card-title,
+    .card-text {
+        min-height: auto;
+    }
+
+    .about-section {
+        padding: 30px 20px !important;
+    }
+}

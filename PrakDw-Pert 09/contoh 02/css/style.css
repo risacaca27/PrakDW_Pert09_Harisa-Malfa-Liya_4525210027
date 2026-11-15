@@ -1,0 +1,130 @@
+/* GENERAL */
+body {
+    min-height: 100vh;
+    background-color: #f7f6f0;
+    font-family: 'DM Sans', sans-serif;
+    color: #35483b;
+}
+
+/* HEADER */
+.store-header {
+    background: linear-gradient(120deg, #536b5b, #899b83);
+}
+
+.store-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.store-header p {
+    color: #e8eee7;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* SECTION TITLE */
+.section-title {
+    font-family: 'Playfair Display', serif;
+    color: #35483b;
+    font-size: 30px;
+}
+
+/* DASHBOARD CARD */
+.dashboard-card {
+    border: none;
+    border-radius: 10px;
+    background-color: #fffefa;
+    transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.dashboard-card h3 {
+    color: #536b5b;
+    font-weight: 700;
+}
+
+/* TABLE CARD */
+.table-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table-card .card-header {
+    border-bottom: 1px solid #e5e8df;
+}
+
+.table-card h3 {
+    font-family: 'Playfair Display', serif;
+    color: #35483b;
+}
+
+/* TABLE */
+.table {
+    font-size: 13px;
+}
+
+.table thead th {
+    background-color: #536b5b;
+    color: white;
+    white-space: nowrap;
+    padding: 15px;
+}
+
+.table td {
+    white-space: nowrap;
+    color: #59675d;
+    padding: 14px;
+}
+
+/* BUTTON */
+.btn-add {
+    background-color: #647d68;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 18px;
+}
+
+.btn-add:hover {
+    background-color: #35483b;
+    color: white;
+}
+
+.btn-detail {
+    background-color: #e9efea;
+    color: #15291c;
+    border: none;
+}
+
+.btn-detail:hover {
+    background-color: #536b5b;
+    color: white;
+}
+
+/* FOOTER */
+.store-footer {
+    background-color: #35483b;
+    font-size: 13px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    .section-title {
+        font-size: 26px;
+    }
+
+    .table {
+        font-size: 12px;
+    }
+
+    .btn-add {
+        width: 100%;
+    }
+
+}
